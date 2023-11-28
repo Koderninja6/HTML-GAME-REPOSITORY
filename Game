@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Text Game</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+
+        marquee {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h3><b>Some text is hidden here.You have to find it.<b></h3><br>
+<a href="https://th.bing.com/th/id/R.5db62b3a496c7fe7bdf11a6ce1efec33?rik=aZjrOVu1Bb%2fBgg&riu=http%3a%2f%2fi.ytimg.com%2fvi%2fFqGxzzVWdEA%2fmaxresdefault.jpg&ehk=oeTmVMETr%2bMUIRFbDCRojEerbcp9PXEOMHVYEETlUWI%3d&risl=&pid=ImgRaw&r=0" style="color:white">Click here to get hint about hidden text</a>
+
+    
+<marquee>WARNING: Do not exit without completing the game!</marquee><br><br>
+    <input type="text" placeholder="Enter name">
+    <input type="text" placeholder="UPI address">
+    <input type="number" placeholder="Enter UPI PIN to get reward">
+    <button>Submit your data to hackers!</button>
+<p class=hidden>Congrats!You found the hidden text</p>
+</body>
+</html>
